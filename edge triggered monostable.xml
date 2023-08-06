@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/ppanish/Documents/KiCad/7.0/projects/edge triggered monostable/edge triggered monostable.kicad_sch</source>
+    <date>2023 August 06, Sunday 14:05:10</date>
+    <tool>Eeschema 7.0.6-0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>edge triggered monostable.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C440198</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C440198"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="edge triggered monostable.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>499168da-f0dd-438a-bd9f-09bdaf6c2bd2</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="edge triggered monostable.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bff2e588-8873-4d67-a779-613a739063cf</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="edge triggered monostable.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>daeae128-9f02-451b-9d49-7163bdb597d5</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="edge triggered monostable.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d211fd2-4d24-40e2-ba53-8e5a22f39273</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C81598</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="LCSC" value="C81598"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="edge triggered monostable.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>950c7d67-cdbf-4723-9aa1-48f273358680</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C84256</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C84256"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="edge triggered monostable.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ffd52fa-eefc-4d5a-acfb-acb049c431b6</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C557685</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C557685"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="edge triggered monostable.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8af68fa7-1b41-4e6a-a410-db793ef00c60</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x06</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C915915</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x06" description="Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C915915"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="edge triggered monostable.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f6ed035-f0c8-4d5e-94cc-467bb8b4739f</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C557685</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C557685"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="edge triggered monostable.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab592cfe-8af5-420d-9521-518bf97c2702</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>G5V-2</value>
+      <footprint>Relay_THT:Relay_DPDT_Omron_G5V-2</footprint>
+      <datasheet>http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C28089</field>
+      </fields>
+      <libsource lib="Relay" part="G5V-2" description="Relay Miniature Omron DPDT"/>
+      <property name="LCSC" value="C28089"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="edge triggered monostable.kicad_sch"/>
+      <property name="ki_description" value="Relay Miniature Omron DPDT"/>
+      <property name="ki_keywords" value="Miniature Relay Dual Pole DPDT Omron"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a87c797-0262-4341-ac46-48acec3d9628</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17514</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17514"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="edge triggered monostable.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02291ce8-7a4c-4a8b-b00d-daf7d931b776</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="edge triggered monostable.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d5fe6b2-5c33-4399-acc4-2fe007d9d955</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="edge triggered monostable.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7ae76d6-4119-4e4a-b3c1-6600064051de</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="edge triggered monostable.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce0af0c2-c970-456d-a69f-aee0d0d61047</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1.5K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C4310</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C4310"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="edge triggered monostable.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b13d7a9d-3116-45d7-a862-6cc4d072e9a4</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>NE555D</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C7593</field>
+      </fields>
+      <libsource lib="Timer" part="NE555D" description="Precision Timers, 555 compatible, SOIC-8"/>
+      <property name="LCSC" value="C7593"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="edge triggered monostable.kicad_sch"/>
+      <property name="ki_description" value="Precision Timers, 555 compatible, SOIC-8"/>
+      <property name="ki_keywords" value="single timer 555"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67775e50-0b11-4fa8-8ffc-8b8d324cdf65</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x06">
+      <description>Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="G5V-2">
+      <description>Relay Miniature Omron DPDT</description>
+      <docs>http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf</docs>
+      <footprints>
+        <fp>Relay*DPDT*Omron*G5V*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">G5V-2</field>
+        <field name="Footprint">Relay_THT:Relay_DPDT_Omron_G5V-2</field>
+        <field name="Datasheet">http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="11" name="" type="passive"/>
+        <pin num="13" name="" type="passive"/>
+        <pin num="16" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="NE555D">
+      <description>Precision Timers, 555 compatible, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ne555.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NE555D</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ne555.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Relay">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Relay.kicad_sym</uri>
+    </library>
+    <library logical="Timer">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Timer.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(D1-K)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="THR" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K1" pin="16" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="5" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(J1-Pin_2)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(J2-Pin_1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K1" pin="6" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(J2-Pin_2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K1" pin="8" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(J2-Pin_3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="K1" pin="4" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(J2-Pin_4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="K1" pin="11" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(J2-Pin_5)">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="K1" pin="9" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(J2-Pin_6)">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="K1" pin="13" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(U1-CV)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="CV" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(U1-DIS)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="DIS" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(U1-TR)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="TR" pintype="input"/>
+    </net>
+  </nets>
+</export>
