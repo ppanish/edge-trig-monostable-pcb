@@ -5,9 +5,11 @@ C3,100nf,C_0805_2012Metric,114.5,-105.95,-90,top
 D1,1N4148,D_SOD-123,107,-106.65,-90,top
 D2,1N4148,D_SOD-123,121.5,-95.85,90,top
 D3,LED,LED_0805_2012Metric,122.9375,-101,-90,top
-J1,Screw_Terminal_01x02,"TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal",92,-103.96,-90,top
-J2,Screw_Terminal_01x06,"TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal",154.5,-106.54,90,top
-J3,Screw_Terminal_01x02,"TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal",92,-94.46,-90,top
+J1,Screw_Terminal_01x02,TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal,92,-103.96,-90,top
+J3,Screw_Terminal_01x02,TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal,92,-94.46,-90,top
+J4,Screw_Terminal_01x02,TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal,153.5,-108.52,90,top
+J5,Screw_Terminal_01x02,TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal,153.5,-101.77,90,top
+J6,Screw_Terminal_01x02,TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal,153.5,-95.02,90,top
 K1,G5V-2,Relay_DPDT_Omron_G5V-2,127.6425,-106.7625,90,top
 R1,1M,R_0805_2012Metric,118,-100.5875,90,top
 R2,10K,R_0805_2012Metric,118,-96.5875,-90,top
